@@ -8,6 +8,10 @@ Please link your homebridge config.json file to /root/.homebridge/config.json
 docker run --net=host -p 5353:5353 -p 51826:51826 -v "/path/to/config.json:/root/.homebridge/config.json" demydiuk/homebridge
 ```
 
+### env variables
+
+HOMEBRIDGE_PLUGINS - string with space separated list of homebridge node plugins to be installed
+
 ### config.json example
 
 ```
